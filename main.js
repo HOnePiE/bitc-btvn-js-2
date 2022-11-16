@@ -27,7 +27,7 @@ document.write(" <br>")
 document.write("<h4>BT3</h4>  <br> ")
     if(n.length>=3){
         if(n.slice(-3)=="ing"){
-            document.write(n+"ly");
+            document.write(n.slice(0,-3)+"ly");
         }
         else{
             document.write(n+"ing");
